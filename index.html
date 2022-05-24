@@ -12,9 +12,17 @@
       crossorigin="anonymous"
     />
   </head>
+  <style>
+      body{
+        background-color: #343a40;
+      }
+      .navbar{
+        color: aliceblue;
+      }
+  </style>
   <body>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a class="navbar-brand" href="#">DTU Notes</a>
+  <a class="navbar-brand" href="#"><h2>WebNotes</h2></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -30,10 +38,10 @@
     </form>
   </div>
 </nav>
-<div class="container my-3">
+<div class="container my-0 bg-dark">
     <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Add Notes Here</h5>
+          <h3 class="card-title">Add Notes Here</h3>
           <div class="form-group">
             <textarea class="form-control" id="addTxt" rows="3"></textarea>
           </div>
@@ -41,14 +49,14 @@
         </div>
       </div>
       <hr>
-      <h2>Your Notes</h2>
+      <h2 class="text-light">Your Notes</h2>
       <hr>
       <div id="notes" class="row container-fluid">
         <div class="noteCard mx-2 my-2 card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">Note</h5>
               <p class="card-text"></p>
-              <a href="#" class="btn btn-primary">Delete</a>
+              <button href="#" class="btn btn-primary">Delete</button>
             </div>
           </div>
       </div>
