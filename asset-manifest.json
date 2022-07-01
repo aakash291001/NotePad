@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/NotePad/static/css/main.abd64e84.css",
-    "main.js": "/NotePad/static/js/main.9f2b3451.js",
-    "static/js/787.49cc365d.chunk.js": "/NotePad/static/js/787.49cc365d.chunk.js",
-    "index.html": "/NotePad/index.html",
-    "main.abd64e84.css.map": "/NotePad/static/css/main.abd64e84.css.map",
-    "main.9f2b3451.js.map": "/NotePad/static/js/main.9f2b3451.js.map",
-    "787.49cc365d.chunk.js.map": "/NotePad/static/js/787.49cc365d.chunk.js.map"
+    "main.css": "/Notepad/static/css/main.abd64e84.css",
+    "main.js": "/Notepad/static/js/main.09b58702.js",
+    "static/js/787.49cc365d.chunk.js": "/Notepad/static/js/787.49cc365d.chunk.js",
+    "index.html": "/Notepad/index.html",
+    "main.abd64e84.css.map": "/Notepad/static/css/main.abd64e84.css.map",
+    "main.09b58702.js.map": "/Notepad/static/js/main.09b58702.js.map",
+    "787.49cc365d.chunk.js.map": "/Notepad/static/js/787.49cc365d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abd64e84.css",
-    "static/js/main.9f2b3451.js"
+    "static/js/main.09b58702.js"
   ]
 }
